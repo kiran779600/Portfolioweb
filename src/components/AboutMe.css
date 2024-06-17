@@ -1,0 +1,58 @@
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .about-me-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .about-me-cards {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .about-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .about-subheading {
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 700;
+  }
+
+  .about-subheading1{
+    color: orange;
+  }
+  .aboutdata{
+    font-weight: 500;
+  }
+  
+  .card {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+    text-align: center;
+  }
+  
+  .card h5 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+  

@@ -1,0 +1,75 @@
+.Project-headding{
+    color: #ffbd39;
+    font-weight: bold;
+}
+.Project-subheading{
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+}
+
+.projects-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .projects-container h2 {
+    font-size: 32px;
+    color: #262020;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .projects-container p {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.6;
+  }
+  
+  .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .services-box {
+    text-align: center;
+    padding: 40px 26px;
+    background: #262020;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .services-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon {
+    background: #ffbd39;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    border-radius: 33% 66% 70% 30% / 49% 62% 38% 51%;
+  }
+  
+  .services-box h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  .services-box p {
+    font-size: 16px;
+    color: #ddd;
+  }
+  

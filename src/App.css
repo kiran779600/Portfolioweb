@@ -1,0 +1,58 @@
+App.js * {
+  margin: 0px;
+  padding: 0px;
+  }
+  
+  .App {
+  text-align: center;
+  }
+  
+  main {
+  padding: 20px;
+  }
+  
+  .element {
+  padding: 60px 20px;
+  }
+  
+  .home-container, .aboutme-container, .projects-container, .contact-container {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .home-text, .aboutme-text, .projects-text, .contact-text {
+  flex: 1.2;
+  padding: 20px;
+  text-align: left;
+  }
+  
+  .home-image, .aboutme-image, .projects-image, .contact-image {
+  flex: 1;
+  padding: 30px;
+  }
+  
+  .home-image img, .aboutme-image img, .projects-image img, .contact-image img {
+  max-width: calc(100% - 50px);
+  height: auto;
+  height: calc(auto - 50px);
+  }
+  
+  /* *************** */
+  
+  .home1 {
+  color: darkorange;
+  font-weight: bold;
+  }
+  
+  .home2 {
+  color: darkorange;
+  font-weight: bold;
+  }
+  
+  .homea {
+  font-size: 16px;
+  font-weight: 800;
+  font-weight: bold;
+  }
