@@ -1,35 +1,34 @@
 .app-bar {
-    transition: background-color 0.3s ease;
-   
-  }
-  
-  .app-bar.scrolled {
-    background-color: white;
-    color: black;
-  }
-  
-  .app-bar.scrolled .MuiToolbar-root {
-    display: flex;
-    justify-content: space-between;
-  }
-  .app-bar {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-  }
-  
-  .header-title {
-    flex-grow: 0;
-  }
-  
-  .header-button {
-    font-weight: bold;
-    margin-left: 30px; /* Adjust margin as needed */
-  }
-  
-  /* Adjust the margin for the first button separately if needed */
-  .header-button:first-of-type {
-    margin-left: 750px;
-  }
-  
+  transition: background-color 0.3s ease;
+}
+
+.app-bar.scrolled {
+  background-color: white;
+  color: black;
+}
+
+.app-bar.scrolled .MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-bar {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.header-title {
+  flex-grow: 0;
+}
+
+.header-button {
+  font-weight: bold;
+  margin-left: 30px; /* Adjust margin as needed */
+}
+
+/* Adjust the margin for the first button separately if needed */
+.header-button:first-of-type {
+  margin-left: 750px;
+}
